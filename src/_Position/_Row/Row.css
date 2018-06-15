@@ -1,0 +1,7 @@
+.row{
+    display: flex;
+    flex: 0 0 100%;
+    /* box-shadow:10px 0px 5px rgb(255, 159, 69) inset; */
+    box-sizing: border-box;
+    border: solid #888888 10px;
+}

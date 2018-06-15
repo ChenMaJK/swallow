@@ -1,0 +1,24 @@
+li{
+    float:left;
+    list-style-type:none;
+    padding: 0;
+}
+.tag{
+    /* display: inline;*/
+    display:block;
+
+    margin: 0;
+    padding: 0 10px;
+    background: white;
+    font-size:20px;
+    font-weight : 600;
+}
+.hover{
+    background: rgb(187, 187, 187);
+}
+.left{
+    float: left; 
+}
+.right{
+    float: right; 
+}

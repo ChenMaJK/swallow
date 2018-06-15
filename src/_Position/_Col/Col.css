@@ -1,0 +1,20 @@
+.col{
+    width: 0;
+    word-break: break-all ;
+    /* box-shadow:-10px 0px 5px rgb(0, 0, 0) inset;  */
+    box-sizing: border-box;
+    border: solid #424242 10px;
+}
+
+._1  { flex: 0 0 8.333%  ;}
+._2  { flex: 0 0 16.66%  ;}
+._3  { flex: 0 0 25.00%  ;}
+._4  { flex: 0 0 33.33%  ;}
+._5  { flex: 0 0 41.66%  ;}
+._6  { flex: 0 0 50.00%  ;}
+._7  { flex: 0 0 58.33%  ;}
+._8  { flex: 0 0 66.66%  ;}
+._9  { flex: 0 0 75.00%  ;}
+._10 { flex: 0 0 83.33%  ;}
+._11 { flex: 0 0 91.66%  ;}
+._12 { flex: 0 0 100.0%  ;}
