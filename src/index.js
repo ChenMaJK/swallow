@@ -17,13 +17,15 @@ let style = {
 render(
     <div style={style}>
         <Row>
-            <Col width="12">
+            <Col width="12" span="12">
                 Col 12
             </Col>
         </Row>
         <Row>
             <Col width="6">
-                Col 6
+                <Row>
+                    Col 6
+                </Row>
             </Col>
             <Col width="6">
                 Col 6

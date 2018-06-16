@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 import css from './Col.css';
 
+let className;
 export default class Col extends Component {
     constructor(props){
         super(props);
-        console.log("tet");
-        console.log(this.props.width==undefined?"12":this.props.width);
+        
+        
+        className = 
+            "col"+
+            " xs_"  + (this.props.width==undefined?"12":this.props.width) +
+            " offset_" + (this.props.offset==undefined?"0":this.props.offset)
     }
     render() {
         return (
-            <div class={this.props.width==undefined?"col _12":"col _"+this.props.width}>
+            <div class={className} >
                 {this.props.children}
             </div>
         );
