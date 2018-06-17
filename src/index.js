@@ -12,29 +12,35 @@ import Col from './_Position/_Col/Col';
 import Row from './_Position/_Row/Row';
 
 let style = {
+    margin:10,
+    padding:10,
+    background:"red"
+}
+let styles = {
+    margin:10,
     padding:10
 }
 render(
-    <div style={style}>
+    <div style={styles}>
         <Row>
             <Col width="12" span="12">
-                Col 12
+                 <div style={style}>Col 12 </div>
             </Col>
         </Row>
         <Row>
             <Col width="6">
                 <Row>
-                    Col 6
+                     <div style={style}>Col 6 </div>
                 </Row>
             </Col>
             <Col width="6">
-                Col 6
+                 <div style={style}>Col 6 </div>
             </Col>
         </Row>
         <Row>
             <Col width="4">
                 <Row>
-                    Col 4 中的Row
+                     <div style={style}>Col 4 中的Row </div>
                 </Row>
             </Col>
         </Row>
