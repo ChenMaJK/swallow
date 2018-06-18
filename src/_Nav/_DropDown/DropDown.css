@@ -1,0 +1,18 @@
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+.item{
+
+    list-style-type:none;
+}
+.dropdown .item:nth-of-type(1) ~ .item {
+    display: none;
+}
+.dropdown .item:nth-of-type(1) ~ .hover{
+    display: inline-block;
+    z-index: 1;
+}

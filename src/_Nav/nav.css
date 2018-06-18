@@ -1,12 +1,10 @@
-.features{
-    overflow: hidden;
-    width: 100%;
-    top:0;
-    left:0;
-    position: fixed;
+.nav{
+    display: flex;
+    position:relative;
+    /* overflow: hidden; */
 }
 .skin{
     box-shadow: 1px 1px 2px 2px;
     padding: 0px 30px;
-    background: rgb(255, 255, 255);
+    background: rgb(165, 171, 255);
 }
